@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%); /* Cor de fundo */
+    font-family: "Figtree", sans-serif;
+}
+
+.card {
+    width: 300px; /* largura do cartão */
+    background-color: white; /* Cor de fundo do cartão */
+    border-radius: 16px; /* cantos arredondados */
+    box-shadow: 8px 8px 0px #000000; /* sombra preta para dar efeito de borda */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 16px; /* Bordas arredondadas */
+}
+
+.imagem.fundo {
+    width: 100%; /* ocupa toda a largura do cartão */
+    height: auto; /* altura automática */
+    border-radius: 10px;
+}
+
+.conteudo {
+    padding: 8px; /* espaçamento interno */
+    background-color: hsl(0, 0%, 100%); /* fundo do conteúdo */
+}
+
+.categoria {
+    background-color: hsl(47, 88%, 63%); /* cor do fundo */
+    padding: 4px 8px;
+    font-weight: bold;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.data {
+    display: block; /* ocupa toda a linha */
+    color: hsl(0, 0%, 7%); /* cor do texto */
+    margin-bottom: 10px; /* margem inferior */
+    margin-top: 10px;
+}
+
+.titulo {
+    font-size: 1.5em; /* tamanho da fonte do título */
+    margin: 10px 0; /* margens superior e inferior */
+    font-weight: bold;
+}
+
+.descricao {
+    color: hsl(0, 0%, 42%); /* cor do texto da descrição */
+    text-align: justify;
+}
+
+.avatar {
+    display: flex;
+    align-items: center; /* alinhamento vertical */
+}
+
+.avatar .imagem {
+    width: 40px; /* largura do avatar */
+    height: 40px; /* altura do avatar */
+    border-radius: 50%; /* tornar o avatar redondo */
+    margin-right: 10px; /* margem direita */
+}
+
+.nome {
+    font-weight: bold; /* texto negrito */
+}
+
