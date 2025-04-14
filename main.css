@@ -14,7 +14,6 @@ body {
     border-radius: 16px; /* cantos arredondados */
     box-shadow: 8px 8px 0px #000000; /* sombra preta para dar efeito de borda */
     padding: 20px; /* Espaçamento interno */
-    border-radius: 16px; /* Bordas arredondadas */
 }
 
 .imagem.fundo {
